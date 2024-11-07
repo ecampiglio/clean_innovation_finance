@@ -2,7 +2,7 @@
 
 This repository contains the code and material for Campiglio, E., Spiganti, A., Wiskich, A. (2024) 'Clean innovation, heterogeneous financing constraints, and the optimal climate policy mix', published in the Journal of Environmental Economics and Management, 128 (103071). The article is available open-access at [this link](https://doi.org/10.1016/j.jeem.2024.103071).
 
-The code should be run on Matlab:
+The code should be run on Matlab (Optimisation toolbox should be installed):
 - main.m is the main program file, containing the model structure.
 - runsims.m runs various simulations using the main program file main.m. This is the file you should run to obtain results. All combination of scenarios, policies and sensitivity analyses are active. Comment out the ones you do not want to run. 
 - Mysimopt.m contains code that solves each individual period.
